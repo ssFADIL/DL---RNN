@@ -208,12 +208,6 @@ with torch.no_grad():
     else:
         print("Cannot make predictions: x_test_tensor is empty. Check your test data and sequence length.")
 
-
-# Train the Model
-
-# Write your code here
-
-
 ```
 
 ### OUTPUT
