@@ -210,14 +210,20 @@ with torch.no_grad():
 
 ## Training Loss Over Epochs Plot
 
-Include your plot here
+<img width="365" height="478" alt="Screenshot 2026-08-20 132025" src="https://github.com/user-attachments/assets/ad9bfae9-3ffe-4e74-838b-3edd53364a11" />
+
+<img width="809" height="610" alt="Screenshot 2026-08-20 132034" src="https://github.com/user-attachments/assets/8dd8aa8b-bb57-4e56-b803-dbde4df90c86" />
+
 
 ## True Stock Price, Predicted Stock Price vs time
 
-Include your plot here
+<img width="1007" height="615" alt="Screenshot 2026-08-20 132052" src="https://github.com/user-attachments/assets/5f049ce3-081e-43de-963c-dcdb02988b25" />
+
 
 ### Predictions
-Include the predictions on test data
+
+<img width="280" height="57" alt="Screenshot 2026-08-20 132100" src="https://github.com/user-attachments/assets/00a8e5e8-eb59-4a07-89c8-ef748be46551" />
+
 
 ## RESULT
 Include your result here
