@@ -226,4 +226,4 @@ with torch.no_grad():
 
 
 ## RESULT
-Include your result here
+Thus, a Recurrent Neural Network (RNN) model for predicting stock prices using historical closing price data has been developed successfully.
