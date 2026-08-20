@@ -41,10 +41,6 @@ Predict on test data, plot actual vs. predicted prices.
 ### Register Number:212225040454
 
 ```python
-# Define RNN Model
-class RNNModel(nn.Module):
-    # write your code here
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -73,7 +69,7 @@ if not os.path.exists('trainset.csv'):
 
 if not os.path.exists('testset.csv'):
     # Increase periods to ensure test set has enough data for seq_length=60
-    dates_test = pd.to_datetime(pd.date_range(start='2020-09-01', periods=100)) 
+    dates_test = pd.to_datetime(pd.date_range(start='2020-09-01', periods=100))
     close_prices_test = np.random.rand(100) * 100 + 60
     df_test_dummy = pd.DataFrame({'Date': dates_test, 'Close': close_prices_test})
     df_test_dummy.to_csv('testset.csv', index=False)
